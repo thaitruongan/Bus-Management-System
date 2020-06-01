@@ -1,0 +1,102 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="MainWindow" Height="740" Width="1366" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>        
+        <Grid Height="50" VerticalAlignment="Top" Background="#ededed">
+            <materialDesign:PackIcon Kind="Menu" Width="30" Height="30" Margin="255 0 0 0" VerticalAlignment="Center"></materialDesign:PackIcon>
+            <Image Source="tta.jpg" Width="35" Height="35" HorizontalAlignment="Right" Margin="0 0 145 0"/>
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Width="150">
+                <TextBlock Text="Thái Trường An" HorizontalAlignment="Right" Margin="0 0 35 0" Foreground="Gray"/>
+            </StackPanel>
+            <materialDesign:PopupBox HorizontalAlignment="Right" Foreground="Gray">                
+                <StackPanel Width="160">                    
+                    <Button Content="Đăng xuất"></Button>
+                    <Button Content="Thoát" Click="Exit"></Button>
+                </StackPanel>
+            </materialDesign:PopupBox>
+        </Grid>
+        <Grid Width="250" HorizontalAlignment="Left" Background="#2a3f54">
+            <Image Source="bus-vehicle-transport-travel-school-public-12-28842.png" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10 10 0 0"></Image>
+            <TextBlock Text=" Bus Management" VerticalAlignment="Top" Foreground="LightGray" Margin="70 13 0 0" FontSize="18"></TextBlock>
+            <TextBlock Text=" System" VerticalAlignment="Top" Foreground="LightGray" Margin="70 33 0 0" FontSize="18"></TextBlock>
+            <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft , Duration=0:0:0.2}">
+                <Grid x:Name="GridCursor" Width="7" HorizontalAlignment="Left" Height="56" Background="#ffa40b" Margin="0 150 0 0" VerticalAlignment="Top"></Grid>
+            </materialDesign:TransitioningContent>
+            <ListView x:Name="ListViewMenu" Margin="0 150 0 0" Foreground="LightGray" SelectionChanged="SelectionChanged">
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Home" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Trang chủ" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="BriefcaseAccount"   Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Nhân viên văn phòng" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="LocalTaxi" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Tài xế" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem >
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Person" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Phụ xe" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Cards" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Nhân viên bán vé tháng" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Bus" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Xe buýt" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Location" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Tuyến xe" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="RoadVariant" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Tuyến đường" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="CashMultiple" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Doanh thu" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="ChartBar" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Thống kê" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>
