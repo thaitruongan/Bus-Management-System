@@ -1,6 +1,9 @@
-﻿using System;
+﻿using DAO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,15 +23,32 @@ namespace GUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(TaiKhoan tk)
         {
             InitializeComponent();
+            DisplayName.Text = tk.NhanVien.hoten;
+            DisplayImage.Source = new BitmapImage(new Uri(tk.NhanVien.anh));
+            current_taikhoan = tk;
         }
-
+        TaiKhoan current_taikhoan;
         private void SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int index = ListViewMenu.SelectedIndex;
             MoveCursorMenu(index);
+
+            switch (index)
+            {
+                case 0:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCMain());
+                    break;
+                case 1:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCStaff());
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void MoveCursorMenu(int index)
@@ -44,6 +64,10 @@ namespace GUI
                 Application.Current.Shutdown();
             }
 
+        }
+
+        private void Load(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

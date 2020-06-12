@@ -32,5 +32,16 @@ namespace DAO.Properties {
                 return ((string)(this["QLXEBUSConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-5LOBMHU;Initial Catalog=QLXEBUS;Persist Security Info=True;Us" +
+            "er ID=sa;Password=sql2019")]
+        public string QLXEBUSConnectionString1 {
+            get {
+                return ((string)(this["QLXEBUSConnectionString1"]));
+            }
+        }
     }
 }

@@ -23,27 +23,27 @@ namespace GUI
     /// <summary>
     /// Interaction logic for Login.xaml
     /// </summary>
-    public partial class Login : Window,INotifyPropertyChanged
+    public partial class Login : Window, INotifyPropertyChanged
     {
         TaiKhoanBUS taiKhoanBUS = new TaiKhoanBUS();
         private bool isLoggedIn = false;
         private bool isJustStarted = true;
-
+        TaiKhoan tk;
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public bool IsLoggedIn 
-        { 
+        public bool IsLoggedIn
+        {
             get => isLoggedIn;
             set
             {
                 isLoggedIn = value;
                 NotifyPropertyChanged();
             }
-                
+
         }
 
-        public bool IsJustStarted 
-        { 
+        public bool IsJustStarted
+        {
             get => isJustStarted;
             set
             {
@@ -52,9 +52,9 @@ namespace GUI
             }
         }
 
-        public void NotifyPropertyChanged([CallerMemberName] String propertyName ="")
+        public void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
-            if(PropertyChanged !=null)
+            if (PropertyChanged != null)
             {
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
@@ -70,22 +70,22 @@ namespace GUI
                 DragMove();
             }
             catch (Exception)
-            { 
-                
+            {
+
             }
         }
 
         private async Task<bool> ValidateCreds()
         {
-            if (taiKhoanBUS.ValidateAccount(NameTextBox.Text,PasswordBox.Password)==true)
+            TaiKhoan currentTKhoan = taiKhoanBUS.ValidateAccount(NameTextBox.Text, PasswordBox.Password);
+            if (currentTKhoan.NhanVien != null)
             {
+                tk = currentTKhoan;
                 await Task.Delay(2000);
                 return true;
             }
             await Task.Delay(2000);
             return false;
-
-            
         }
 
         public async void openCB(object sender, MaterialDesignThemes.Wpf.DialogOpenedEventArgs eventArgs)
@@ -94,10 +94,10 @@ namespace GUI
             {
                 IsLoggedIn = await ValidateCreds();
                 if (IsLoggedIn)
-                {                 
+                {
                     eventArgs.Session.Close(true);
                     await Task.Delay(2000);
-                    MainWindow main = new MainWindow();
+                    MainWindow main = new MainWindow(tk);
                     this.Close();
                     main.ShowDialog();
                 }
@@ -108,21 +108,21 @@ namespace GUI
                 }
             }
             catch (Exception)
-            { 
-            
+            {
+
             }
         }
 
         private void closingCB(object sender, MaterialDesignThemes.Wpf.DialogClosingEventArgs eventArgs)
         {
-            if(eventArgs.Parameter !=null)
+            if (eventArgs.Parameter != null)
             {
-                if(((bool)eventArgs.Parameter)==true)
+                if (((bool)eventArgs.Parameter) == true)
                 {
                     IsJustStarted = false;
                     IsLoggedIn = true;
                 }
-                else if((bool)eventArgs.Parameter == false)
+                else if ((bool)eventArgs.Parameter == false)
                 {
                     IsJustStarted = false;
                     IsLoggedIn = false;

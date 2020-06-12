@@ -13,21 +13,22 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="MainWindow" Height="740" Width="1366" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
-    <Grid>        
+        Title="MainWindow" Height="740" Width="1366" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" Loaded="Load">
+    <Grid>
         <Grid Height="50" VerticalAlignment="Top" Background="#ededed">
             <materialDesign:PackIcon Kind="Menu" Width="30" Height="30" Margin="255 0 0 0" VerticalAlignment="Center"></materialDesign:PackIcon>
-            <Image Source="tta.jpg" Width="35" Height="35" HorizontalAlignment="Right" Margin="0 0 145 0"/>
+            <Image x:Name="DisplayImage" Source="tta.jpg" Width="35" Height="35" HorizontalAlignment="Right" Margin="0,8,157,7"/>
             <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Width="150">
-                <TextBlock Text="Thái Trường An" HorizontalAlignment="Right" Margin="0 0 35 0" Foreground="Gray"/>
+                <TextBlock x:Name="DisplayName" Text="Thái Trường An" HorizontalAlignment="Right" Margin="0,0,40,0" Foreground="Gray"/>
             </StackPanel>
-            <materialDesign:PopupBox HorizontalAlignment="Right" Foreground="Gray">                
-                <StackPanel Width="160">                    
+            <materialDesign:PopupBox HorizontalAlignment="Right" Foreground="Gray">
+                <StackPanel Width="160">
                     <Button Content="Đăng xuất"></Button>
                     <Button Content="Thoát" Click="Exit"></Button>
                 </StackPanel>
             </materialDesign:PopupBox>
         </Grid>
+        <Grid x:Name="GridPrincipal" HorizontalAlignment="Left" Margin="250,50,0,0" VerticalAlignment="Top" Background="#f7f7f7" Height="690" Width="1116"/>
         <Grid Width="250" HorizontalAlignment="Left" Background="#2a3f54">
             <Image Source="bus-vehicle-transport-travel-school-public-12-28842.png" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10 10 0 0"></Image>
             <TextBlock Text=" Bus Management" VerticalAlignment="Top" Foreground="LightGray" Margin="70 13 0 0" FontSize="18"></TextBlock>
@@ -35,7 +36,7 @@
             <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft , Duration=0:0:0.2}">
                 <Grid x:Name="GridCursor" Width="7" HorizontalAlignment="Left" Height="56" Background="#ffa40b" Margin="0 150 0 0" VerticalAlignment="Top"></Grid>
             </materialDesign:TransitioningContent>
-            <ListView x:Name="ListViewMenu" Margin="0 150 0 0" Foreground="LightGray" SelectionChanged="SelectionChanged">
+            <ListView x:Name="ListViewMenu" Margin="0 150 0 0" Foreground="LightGray" SelectionChanged="SelectionChanged" SelectedIndex="0">
                 <ListViewItem Width="250" HorizontalAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Home" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>

@@ -28,3 +28,45 @@ D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\
 D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.exe
 D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.pdb
 D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.exe.config
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCMain.g.cs
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCMain.baml
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCStaff.g.cs
+D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCStaff.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\GUI.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\GUI.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\GUI.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\BUS.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\MaterialDesignColors.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\BUS.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\BUS.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\DAO.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\MaterialDesignColors.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\Login.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\MainWindow.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCMain.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCStaff.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\App.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI_MarkupCompile.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI_MarkupCompile.lref
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\App.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\Login.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\MainWindow.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCMain.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\UCStaff.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.g.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.pdb

@@ -1,15 +1,34 @@
-﻿CREATE DATABASE QLXEBUS
+﻿USE MASTER
+DROP DATABASE QLXEBUS
+CREATE DATABASE QLXEBUS
 GO
 USE QLXEBUS
 
 CREATE TABLE TaiKhoan
 (
-	manv varchar(10) PRIMARY KEY,
+	id int identity(1,1) PRIMARY KEY,
+	manv varchar(10),
 	tendangnhap varchar(100),
 	matkhau varchar(100),
-	quyen int
+	quyen varchar(10),
 )
 GO
+
+CREATE TABLE Quyen
+(
+	maquyen varchar(10) PRIMARY KEY,
+	ten nvarchar(50),
+)
+
+ALTER TABLE TaiKhoan 
+	ADD CONSTRAINT fk_TaiKhoan_Quyen
+		FOREIGN KEY(quyen)
+		REFERENCES Quyen(maquyen);
+
+ALTER TABLE NhanVien 
+	ADD CONSTRAINT fk_NhanVien_Quyen
+		FOREIGN KEY(taikhoan)
+		REFERENCES Quyen(maquyen);
 
 ALTER TABLE TaiKhoan 
 	ADD CONSTRAINT fk_TaiKhoan_NhanVien
@@ -22,12 +41,13 @@ CREATE TABLE NhanVien
 	manv varchar(10) PRIMARY KEY,
 	anh varchar(100),
 	hoten nvarchar(50),
-	ngaysinh smalldatetime,
+	ngaysinh date,
+	diachi nvarchar(500),
 	gioitinh nvarchar(10),
 	dienthoai varchar(10),
 	cmnd varchar(9),
 	bangcap nvarchar(20),
-	taikhoan varchar(100),
+	taikhoan varchar(10),
 	phongban nvarchar(50),
 )
 GO
@@ -37,7 +57,7 @@ CREATE TABLE TaiXe
 	matx varchar(10) PRIMARY KEY,
 	anh varchar(100),
 	hoten nvarchar(50),
-	ngaysinh smalldatetime,
+	ngaysinh date,
 	gioitinh nvarchar(10),
 	diachi nvarchar(100),
 	dienthoai varchar(10),
@@ -56,7 +76,7 @@ CREATE TABLE PhuXe
 (
 	mapx varchar(10) PRIMARY KEY,
 	anh varchar(100),
-	ngaysinh smalldatetime,
+	ngaysinh date,
 	gioitinh nvarchar(10),
 	dienthoai varchar(10),
 	cmnd varchar(9),
@@ -150,7 +170,7 @@ CREATE TABLE NhanVienBanVeThang(
 	manv varchar(10) PRIMARY KEY,
 	anh varchar(100),
 	hoten nvarchar(50),
-	ngaysinh smalldatetime,
+	ngaysinh date,
 	gioitinh nvarchar(10),
 	diachi nvarchar(100),
 	dienthoai varchar(10),
@@ -188,3 +208,34 @@ ALTER TABLE DoanhThuThang
 
 
 SELECT * FROM KhachHangThang
+
+CREATE PROC USP_Login
+@Username nvarchar(100), @Password nvarchar(100)
+AS
+BEGIN
+	SELECT t.*, n.* FROM dbo.TaiKhoan t, nhanvien n WHERE tendangnhap = @Username AND matkhau = @Password and t.manv = n.manv
+END
+GO
+drop proc USP_Login
+
+CREATE PROCEDURE uspGetStaff
+AS
+BEGIN
+    SELECT
+        nv.*,q.*
+    FROM
+        NhanVien nv,Quyen q
+    where
+        nv.taikhoan = q.maquyen
+END;
+
+uspGetStaff
+
+CREATE PROCEDURE uspGetRole
+AS
+BEGIN
+    SELECT
+        *
+    FROM
+        Quyen
+END;
