@@ -56,6 +56,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BusDAO.cs" />
+    <Compile Include="CaTrucDAO.cs" />
+    <Compile Include="DoanhThuNgayDAO.cs" />
+    <Compile Include="GiaVeDAO.cs" />
+    <Compile Include="HanhKhachThangDAO.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -64,12 +69,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PhuXeDAO.cs" />
     <Compile Include="QLXEBUS.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QLXEBUS.dbml</DependentUpon>
     </Compile>
     <Compile Include="TaiKhoanDAO.cs" />
+    <Compile Include="TaiXeDAO.cs" />
+    <Compile Include="TuyenDuongDAO.cs" />
+    <Compile Include="VeThang1TuyenDAO.cs" />
+    <Compile Include="VeThangLienTuyenDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

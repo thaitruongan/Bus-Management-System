@@ -23,7 +23,7 @@
             </StackPanel>
             <materialDesign:PopupBox HorizontalAlignment="Right" Foreground="Gray">
                 <StackPanel Width="160">
-                    <Button Content="Đăng xuất"></Button>
+                    <Button x:Name="btnTaikhoan" Content="Tài khoản" Click="User"></Button>
                     <Button Content="Thoát" Click="Exit"></Button>
                 </StackPanel>
             </materialDesign:PopupBox>
@@ -36,7 +36,7 @@
             <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft , Duration=0:0:0.2}">
                 <Grid x:Name="GridCursor" Width="7" HorizontalAlignment="Left" Height="56" Background="#ffa40b" Margin="0 150 0 0" VerticalAlignment="Top"></Grid>
             </materialDesign:TransitioningContent>
-            <ListView x:Name="ListViewMenu" Margin="0 150 0 0" Foreground="LightGray" SelectionChanged="SelectionChanged" SelectedIndex="0">
+            <ListView x:Name="ListViewMenu" Margin="0 150 0 0" Foreground="LightGray" SelectionChanged="SelectionChanged" SelectedIndex="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
                 <ListViewItem Width="250" HorizontalAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Home" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
@@ -60,13 +60,7 @@
                         <materialDesign:PackIcon Kind="Person" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
                         <TextBlock Text="Phụ xe" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
                     </StackPanel>
-                </ListViewItem>
-                <ListViewItem Width="250" HorizontalAlignment="Left">
-                    <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="Cards" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
-                        <TextBlock Text="Nhân viên bán vé tháng" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
-                    </StackPanel>
-                </ListViewItem>
+                </ListViewItem>                
                 <ListViewItem Width="250" HorizontalAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Bus" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
@@ -81,10 +75,23 @@
                 </ListViewItem>
                 <ListViewItem Width="250" HorizontalAlignment="Left">
                     <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="RoadVariant" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
-                        <TextBlock Text="Tuyến đường" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                        <materialDesign:PackIcon Kind="Timetable" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Ca trực" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
                     </StackPanel>
                 </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="AccountMultiple"   Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Hành khách tháng" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Width="250" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Cards" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>
+                        <TextBlock Text="Vé tháng" FontSize="16" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                
                 <ListViewItem Width="250" HorizontalAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="CashMultiple" Width="30" Height="30" VerticalAlignment="Center" Margin="5" FontSize="20"></materialDesign:PackIcon>

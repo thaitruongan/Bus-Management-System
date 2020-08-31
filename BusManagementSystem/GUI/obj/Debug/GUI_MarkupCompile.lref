@@ -1,7 +1,17 @@
 ﻿
-FD:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\App.xaml;;
-FD:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\Login.xaml;;
-FD:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\MainWindow.xaml;;
-FD:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\UCMain.xaml;;
-FD:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\UCStaff.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\App.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\Loading.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\Login.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\MainWindow.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCAssistantDriver.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCBus.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCDriver.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCMain.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCMonthTicket.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCPassengerMonth.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCRevenue.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCRoute.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCShift.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\UCStaff.xaml;;
+FD:\1.Hoc\Bus Management System\GUI\User.xaml;;
 

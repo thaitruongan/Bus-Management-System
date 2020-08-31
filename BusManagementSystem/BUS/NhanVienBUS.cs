@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
@@ -23,9 +24,29 @@ namespace BUS
             data.ItemsSource = NhanVienDAO.Instance.Xem();
         }
 
-        public void loadComboBox(ComboBox cbTaiKhoan)
+        public void Them(NhanVien nv)
         {
-            cbTaiKhoan.ItemsSource = NhanVienDAO.Instance.LoadComboBox();
+            NhanVienDAO.Instance.Them(nv);
+        }
+
+        public void Xoa(NhanVien nv)
+        {
+            NhanVienDAO.Instance.Xoa(nv);
+        }
+
+        public void CapNhat(NhanVien nv, string maNV)
+        {
+            NhanVienDAO.Instance.CapNhat(nv,maNV);
+        }
+
+        public void CapNhatNoImg(NhanVien nv, string maNV)
+        {
+            NhanVienDAO.Instance.CapNhatNoImg(nv, maNV);
+        }
+
+        public void TimKiem(DataGrid data, string search)
+        {
+            data.ItemsSource = NhanVienDAO.Instance.TimKiem(search);
         }
     }
 }

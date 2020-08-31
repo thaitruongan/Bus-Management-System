@@ -70,3 +70,230 @@ D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Deb
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.exe
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\GUI.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\GUI.exe.config
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\GUI.exe
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\GUI.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\BUS.exe
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\DAO.exe
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\MaterialDesignColors.dll
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\BUS.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\BUS.exe.config
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\DAO.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\DAO.exe.config
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\Login.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\UCMain.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\UCStaff.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\App.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\App.baml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\Login.baml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\MainWindow.baml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\UCMain.baml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\UCStaff.baml
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.g.resources
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.exe
+C:\Users\thait\Desktop\BookStoreManagement\GUI\obj\Debug\GUI.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\GUI.exe.config
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\GUI.exe
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\GUI.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\BUS.exe
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\DAO.exe
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\MaterialDesignColors.dll
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\BUS.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\BUS.exe.config
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\DAO.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\DAO.exe.config
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\thait\Desktop\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\Login.g.cs
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\UCMain.g.cs
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\UCStaff.g.cs
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\App.g.cs
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\App.baml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\Login.baml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\MainWindow.baml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\UCMain.baml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\UCStaff.baml
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.g.resources
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.exe
+C:\Users\thait\Desktop\Bus Management System\GUI\obj\Debug\GUI.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\GUI.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\GUI.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\GUI.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\BUS.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\DAO.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\MaterialDesignColors.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\BUS.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\BUS.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\DAO.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\DAO.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\MaterialDesignColors.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\Login.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\MainWindow.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\UCMain.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\UCStaff.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\App.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.lref
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\App.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\Login.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\MainWindow.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\UCMain.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\UCStaff.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.g.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\GUI\obj\Debug\GUI.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\GUI.exe.config
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\GUI.exe
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\GUI.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\BUS.exe
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\DAO.exe
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\MaterialDesignColors.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\BUS.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\BUS.exe.config
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\DAO.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\DAO.exe.config
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\MaterialDesignColors.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\Login.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\MainWindow.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCMain.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCStaff.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\App.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI_MarkupCompile.lref
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\App.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\Login.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\MainWindow.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCMain.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCStaff.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.g.resources
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.exe
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.pdb
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCDriver.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCDriver.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCAssistantDriver.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCAssistantDriver.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCBus.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCBus.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCRoute.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCRoute.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCPassengerMonth.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCPassengerMonth.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCMonthTicket.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCMonthTicket.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCShift.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCShift.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCRevenue.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\UCRevenue.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\User.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\User.baml
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\Loading.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\Loading.baml
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\EnvDTE.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\stdole.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI_Content.g.cs
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\GUI.Report.resources
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\RdlCompile.cache
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\RdlCompile.compiled

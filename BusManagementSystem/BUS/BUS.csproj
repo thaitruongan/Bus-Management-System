@@ -57,7 +57,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BusBUS.cs" />
+    <Compile Include="CaTrucBUS.cs" />
+    <Compile Include="DoanhThuNgayBUS.cs" />
+    <Compile Include="GiaVeBUS.cs" />
+    <Compile Include="HanhKhachBUS.cs" />
     <Compile Include="NhanVienBUS.cs" />
+    <Compile Include="PhuXeBUS.cs" />
     <Compile Include="Properties\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -66,6 +72,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TaiXeBUS.cs" />
+    <Compile Include="TuyenDuongBUS.cs" />
+    <Compile Include="VeThang1TuyenBUS.cs" />
+    <Compile Include="VeThangLienTuyenBUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

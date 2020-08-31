@@ -31,6 +31,14 @@ namespace GUI
         TaiKhoan tk;
         public event PropertyChangedEventHandler PropertyChanged;
 
+        private static Login instance;
+
+        public static Login Instance
+        {
+            get { if (instance == null) instance = new Login(); return Login.instance; }
+            private set { Login.instance = value; }
+        }
+
         public bool IsLoggedIn
         {
             get => isLoggedIn;
@@ -51,6 +59,8 @@ namespace GUI
                 NotifyPropertyChanged();
             }
         }
+
+        public TaiKhoan Tk { get => tk; set => tk = value; }
 
         public void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
@@ -80,7 +90,7 @@ namespace GUI
             TaiKhoan currentTKhoan = taiKhoanBUS.ValidateAccount(NameTextBox.Text, PasswordBox.Password);
             if (currentTKhoan.NhanVien != null)
             {
-                tk = currentTKhoan;
+                Tk = currentTKhoan;
                 await Task.Delay(2000);
                 return true;
             }
@@ -97,7 +107,7 @@ namespace GUI
                 {
                     eventArgs.Session.Close(true);
                     await Task.Delay(2000);
-                    MainWindow main = new MainWindow(tk);
+                    MainWindow main = new MainWindow(Tk);
                     this.Close();
                     main.ShowDialog();
                 }

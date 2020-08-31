@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\obj\Debug\
+D:\1.Hoc\Bus Management System\GUI\obj\Debug\
 GUI
 none
 false
 DEBUG;TRACE
-D:\1. Học\Lap trinh quan ly\Bus Management System\BusManagementSystem\GUI\App.xaml
-4-1018844585
+D:\1.Hoc\Bus Management System\GUI\App.xaml
+14-1045680185
+51001242449
+23-2147088440
+291606788329
+Loading.xaml;Login.xaml;MainWindow.xaml;UCAssistantDriver.xaml;UCBus.xaml;UCDriver.xaml;UCMain.xaml;UCMonthTicket.xaml;UCPassengerMonth.xaml;UCRevenue.xaml;UCRoute.xaml;UCShift.xaml;UCStaff.xaml;User.xaml;
 
-9-1070480333
-18-1018476136
-Login.xaml;MainWindow.xaml;UCMain.xaml;UCStaff.xaml;
-
-True
+False
 

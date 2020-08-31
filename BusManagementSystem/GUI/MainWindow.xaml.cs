@@ -1,4 +1,5 @@
-﻿using DAO;
+﻿using BUS;
+using DAO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,19 +24,24 @@ namespace GUI
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        TaiKhoan tk = new TaiKhoan();
         public MainWindow(TaiKhoan tk)
         {
             InitializeComponent();
             DisplayName.Text = tk.NhanVien.hoten;
-            DisplayImage.Source = new BitmapImage(new Uri(tk.NhanVien.anh));
-            current_taikhoan = tk;
+            DisplayImage.Source = new BitmapImage(new Uri(AppDomain.CurrentDomain.BaseDirectory + @"image\avatar\" + tk.NhanVien.anh));
+            current_taikhoan = tk;          
+
         }
+
+
         TaiKhoan current_taikhoan;
         private void SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int index = ListViewMenu.SelectedIndex;
             MoveCursorMenu(index);
-
+            current_taikhoan = TaiKhoanBUS.Instance.get_quyen(Login.Instance.Tk.tendangnhap, Login.Instance.Tk.matkhau);
             switch (index)
             {
                 case 0:
@@ -43,8 +49,58 @@ namespace GUI
                     GridPrincipal.Children.Add(new UCMain());
                     break;
                 case 1:
+                    if(current_taikhoan.quyen == "Admin")
+                    {
+                        GridPrincipal.Children.Clear();
+                        GridPrincipal.Children.Add(new UCStaff());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Bạn không có quyền truy cập vào tab này");
+                        GridPrincipal.Children.Clear();
+                        GridPrincipal.Children.Add(new UCMain());
+                    }
+                    break;
+                case 2:
                     GridPrincipal.Children.Clear();
-                    GridPrincipal.Children.Add(new UCStaff());
+                    GridPrincipal.Children.Add(new UCDriver());
+                    break;
+                case 3:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCAssistantDriver());
+                    break;
+                case 4:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCBus());
+                    break;
+                case 5:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCRoute());
+                    break;
+                case 6:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCShift());
+                    break;
+                case 7:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCPassengerMonth());
+                    break;
+                case 8:
+                    GridPrincipal.Children.Clear();
+                    GridPrincipal.Children.Add(new UCMonthTicket());
+                    break;
+                case 9:
+                    if (current_taikhoan.quyen == "Admin")
+                    {
+                        GridPrincipal.Children.Clear();
+                        GridPrincipal.Children.Add(new UCRevenue());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Bạn không có quyền truy cập vào tab này");
+                        GridPrincipal.Children.Clear();
+                        GridPrincipal.Children.Add(new UCMain());
+                    }                    
                     break;
                 default:
                     break;
@@ -59,7 +115,7 @@ namespace GUI
 
         private void Exit(object sender, RoutedEventArgs e)
         {
-            if(MessageBox.Show("Bạn có thực sự muốn đóng chương trình!","Cảnh báo",MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("Bạn có thực sự muốn đóng chương trình!", "Cảnh báo", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 Application.Current.Shutdown();
             }
@@ -68,6 +124,20 @@ namespace GUI
 
         private void Load(object sender, RoutedEventArgs e)
         {
+            if(current_taikhoan.quyen =="Admin")
+            {
+                btnTaikhoan.IsEnabled = true;
+            }
+            else
+            {
+                btnTaikhoan.IsEnabled = false;
+            }
+        }
+
+        private void User(object sender, RoutedEventArgs e)
+        {
+            User user = new User();
+            user.ShowDialog();
         }
     }
 }

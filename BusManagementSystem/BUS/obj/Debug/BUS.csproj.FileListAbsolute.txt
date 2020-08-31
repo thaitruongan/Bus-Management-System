@@ -36,3 +36,79 @@ D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\BUS\obj\Deb
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\BUS\obj\Debug\BUS.exe
 D:\1.Hoc\Lap trinh quan ly\Bus Management System\BusManagementSystem\BUS\obj\Debug\BUS.pdb
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\BUS.exe.config
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\BUS.exe
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\BUS.pdb
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\DAO.exe
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\DAO.pdb
+C:\Users\thait\Desktop\BookStoreManagement\BUS\bin\Debug\DAO.exe.config
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\Properties\MainWindow.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\App.g.cs
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS_MarkupCompile.cache
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS_MarkupCompile.lref
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\Properties\MainWindow.baml
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.g.resources
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.exe
+C:\Users\thait\Desktop\BookStoreManagement\BUS\obj\Debug\BUS.pdb
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\BUS.exe.config
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\BUS.exe
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\BUS.pdb
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\DAO.exe
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\DAO.pdb
+C:\Users\thait\Desktop\Bus Management System\BUS\bin\Debug\DAO.exe.config
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\Properties\MainWindow.g.cs
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\App.g.cs
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.cache
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.lref
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\Properties\MainWindow.baml
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.g.resources
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.exe
+C:\Users\thait\Desktop\Bus Management System\BUS\obj\Debug\BUS.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\BUS.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\BUS.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\BUS.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\DAO.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\DAO.pdb
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\bin\Debug\DAO.exe.config
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\Properties\MainWindow.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\App.g.cs
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.lref
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\Properties\MainWindow.baml
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.g.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.Properties.Resources.resources
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.exe
+D:\1.Hoc\Lap trinh quan ly\Bus Management System\BUS\obj\Debug\BUS.pdb
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\BUS.exe.config
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\BUS.exe
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\BUS.pdb
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\DAO.exe
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\DAO.pdb
+D:\1.Hoc\Bus Management System\BUS\bin\Debug\DAO.exe.config
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\Properties\MainWindow.g.cs
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\App.g.cs
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.cache
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS_MarkupCompile.lref
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\Properties\MainWindow.baml
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.g.resources
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.Properties.Resources.resources
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.exe
+D:\1.Hoc\Bus Management System\BUS\obj\Debug\BUS.pdb

@@ -35,5 +35,47 @@ namespace DAO
             }
             return tk;
         }
+
+        public IEnumerable<TaiKhoan> Xem()
+        {
+            List<TaiKhoan> Details = new List<TaiKhoan>();
+            var result = db.Get_TaiKhoan().ToList();
+            for (int j = 0; j < result.Count; j++)
+            {
+                TaiKhoan tk = new TaiKhoan();
+                tk.NhanVien = new NhanVien();
+                tk.id = Convert.ToInt32(result[j].id);
+                tk.NhanVien.hoten = Convert.ToString(result[j].hoten);
+                tk.tendangnhap = Convert.ToString(result[j].tendangnhap);
+                tk.matkhau = Convert.ToString(result[j].matkhau);
+                tk.quyen = Convert.ToString(result[j].quyen);
+                Details.Add(tk);
+            }
+            return Details;
+        }
+
+        public TaiKhoan get_quyen(string tendangnhap,string taikhoan)
+        {
+            var res = db.Get_Quyen(tendangnhap,taikhoan).ToList();
+            TaiKhoan tk = new TaiKhoan();
+            tk.quyen = Convert.ToString(res[0].quyen);
+            return tk;
+        }
+
+        public void Them(TaiKhoan tk)
+        {
+            var result = db.Insert_TaiKhoan(tk.manv,tk.tendangnhap,tk.matkhau,tk.quyen);
+
+        }
+
+        public void CapNhat(TaiKhoan tk, int maTK)
+        {
+            var result = db.Update_TaiKhoan(maTK,tk.manv, tk.tendangnhap, tk.matkhau, tk.quyen);
+        }
+
+        public void Xoa(TaiKhoan tk)
+        {
+            var result = db.Delete_TaiKhoan(tk.id);
+        }
     }
 }
